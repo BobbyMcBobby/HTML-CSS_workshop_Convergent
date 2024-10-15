@@ -1,19 +1,72 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>My Personal Project</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm Varun Saravanan, a sophomore in the UT Computer Science Program.</p>
+        </div>
+    </header>
 
-  <h1>Hello World!</h1>
-  
-  <p>This is my first web page!</p>
-  
-  <button onclick="changeText()">Click me!</button>
-  
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a Computer Scientist with experience in a plethora of languages. I love creating impactful projects and learning new technologies.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Java</li>
+            <li>Python</li>
+            <li>C#</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>InfiniDungeon</h3>
+                <p>2D dungeon game with infinite generation, with 6 enemy types, working economy, and xbox controls</p>
+            </div>
+            <div class="project-card">
+                <h3>Wind Tunnel</h3>
+                <p>Virtual Reality model that shows how air flow is affected by any object in a wind tunnel</p>
+            </div>
+            <div class="project-card">
+                <h3>Hello World</h3>
+                <p>Printed out hello world</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out via email at <a href="mailto:yourname@example.com">yay67@gmail.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Varun Saravanan. All rights reserved.</p>
+    </footer>
 </body>
-
 </html>
